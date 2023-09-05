@@ -8,6 +8,7 @@ namespace Validator.Estudiante;
 
 public class GetEstudiantesByIeRequestValidator : AbstractValidator<GetEstudiantesByIeRequest>
 {
+    // validation
     public GetEstudiantesByIeRequestValidator()
     {
         RuleFor(x => x)
