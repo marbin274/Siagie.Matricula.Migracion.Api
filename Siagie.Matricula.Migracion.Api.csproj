@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Minedu.Fw.Domain.SeedWork" Version="0.0.0.2" />
+    <PackageReference Include="Minedu.Fw.General.Filters.Swagger" Version="0.0.0.8" />
+    <PackageReference Include="Minedu.Fw.General.Models.Security" Version="0.0.0.10" />
+    <PackageReference Include="Minedu.Fw.General.Response" Version="0.0.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
